@@ -1,0 +1,23 @@
+{
+	"appId": "app.csquare.yurekai",
+	"appName": "C-Square",
+	"webDir": "build",
+	"server": {
+		"_url": "http://192.168.1.183:5173/",
+		"_cleartext": true,
+		"androidScheme": "https"
+	},
+	"ios": {
+		"scheme": "C-Square"
+	},
+	"plugins": {
+		"SplashScreen": {
+			"launchShowDuration": 2000,
+			"launchFadeOutDuration": 2000,
+			"launchAutoHide": true,
+			"androidScaleType": "CENTER_CROP",
+			"splashImmersive": true,
+			"backgroundColor": "#070D0D"
+		}
+	}
+}
