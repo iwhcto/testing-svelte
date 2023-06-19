@@ -1,6 +1,1 @@
-<script>
-	/** @type {import('./$types').PageData} */
-	export let data;
-</script>
-
-Forgot
+<div class="mt-10">Forgot page: TODO</div>

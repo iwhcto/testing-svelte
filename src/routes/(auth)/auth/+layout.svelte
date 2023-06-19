@@ -19,7 +19,9 @@
 				<NavbarBackLink text="" class="text-secondary mr-auto" onClick={() => history.back()} />
 			{/if}
 		</Navbar>
-		{$menuConfiguration.title}
+		<div class="my-2">
+			header title should be: {$menuConfiguration.title}
+		</div>
 		<slot />
 	</Page>
 </App>
